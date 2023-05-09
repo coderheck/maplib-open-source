@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[640],{63891:s=>{s.exports=JSON.parse('{"sourceUrl":"https://github.com/coderheck/maplib-open-source/blob/master","baseUrl":"/maplib-open-source/","classOrder":[{"classes":["MapLib","Skills","PlayerUI","Settings"]}],"apiCategories":[]}')}}]);
