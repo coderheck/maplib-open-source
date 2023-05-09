@@ -16,8 +16,8 @@ Janitor is destructor based class designed to assist with clearing up connection
     WARNING! This is an advanced feature.
     This page assumes you are familiar, comfortable and can write Luau code.
 :::"><link data-rh="true" rel="icon" href="https://coderheck.github.io/assets/TRIAosLogoGradient.png"><link data-rh="true" rel="canonical" href="https://coderheck.github.io/maplib-open-source/api/Janitor"><link data-rh="true" rel="alternate" href="https://coderheck.github.io/maplib-open-source/api/Janitor" hreflang="en"><link data-rh="true" rel="alternate" href="https://coderheck.github.io/maplib-open-source/api/Janitor" hreflang="x-default"><link rel="stylesheet" href="/maplib-open-source/assets/css/styles.35966137.css">
-<link rel="preload" href="/maplib-open-source/assets/js/runtime~main.85fcb010.js" as="script">
-<link rel="preload" href="/maplib-open-source/assets/js/main.c74b6ee5.js" as="script">
+<link rel="preload" href="/maplib-open-source/assets/js/runtime~main.8aded760.js" as="script">
+<link rel="preload" href="/maplib-open-source/assets/js/main.759cc460.js" as="script">
 </head>
 <body class="navigation-with-keyboard">
 <script>!function(){function e(e){document.documentElement.setAttribute("data-theme",e)}var t=function(){var e=null;try{e=localStorage.getItem("theme")}catch(e){}return e}();null!==t?e(t):window.matchMedia("(prefers-color-scheme: dark)").matches?e("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,e("light"))}()</script><div id="__docusaurus">
@@ -106,9 +106,9 @@ janitor<span class="token punctuation">:</span><span class="token function">Clea
 </code></pre>
   </div>
 </div>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Cleanup"><code style="text-decoration:none">Cleanup</code><a href="#Cleanup" class="hash-link" aria-label="Direct link to Cleanup" title="Direct link to Cleanup">​</a></h3><div class="repositoryDetailsContainer_BPdw"><span class="releaseVersion_EonW">since <!-- -->0.11</span><a class="sourceButton_sEho" href="https://github.com/coderheck/maplib-open-source/blob/master/src/Features/Cleanup/Janitor.lua#L165"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Janitor<!-- -->:</code><code class="green_DgR4">Cleanup</code><code>(</code><code>taskTable:<!-- -->: </code><code class="blue_P4bS">table?</code><code>) → </code><code class="blue_P4bS">nil</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Cleanup"><code style="text-decoration:none">Cleanup</code><a href="#Cleanup" class="hash-link" aria-label="Direct link to Cleanup" title="Direct link to Cleanup">​</a></h3><div class="repositoryDetailsContainer_BPdw"><span class="releaseVersion_EonW">since <!-- -->0.11</span><a class="sourceButton_sEho" href="https://github.com/coderheck/maplib-open-source/blob/master/src/Features/Cleanup/Janitor.lua#L164"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Janitor<!-- -->:</code><code class="green_DgR4">Cleanup</code><code>(</code><code>) → </code><code class="blue_P4bS">nil</code></div><div>
 <p>Calls for the Janitor to cleanup up all the tasks it was given.</p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Destroy"><code style="text-decoration:none">Destroy</code><a href="#Destroy" class="hash-link" aria-label="Direct link to Destroy" title="Direct link to Destroy">​</a></h3><div class="repositoryDetailsContainer_BPdw"><span class="releaseVersion_EonW">since <!-- -->0.11</span><a class="sourceButton_sEho" href="https://github.com/coderheck/maplib-open-source/blob/master/src/Features/Cleanup/Janitor.lua#L207"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Janitor<!-- -->:</code><code class="green_DgR4">Destroy</code><code>(</code><code>) → </code><code class="blue_P4bS">nil</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Destroy"><code style="text-decoration:none">Destroy</code><a href="#Destroy" class="hash-link" aria-label="Direct link to Destroy" title="Direct link to Destroy">​</a></h3><div class="repositoryDetailsContainer_BPdw"><span class="releaseVersion_EonW">since <!-- -->0.11</span><a class="sourceButton_sEho" href="https://github.com/coderheck/maplib-open-source/blob/master/src/Features/Cleanup/Janitor.lua#L206"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Janitor<!-- -->:</code><code class="green_DgR4">Destroy</code><code>(</code><code>) → </code><code class="blue_P4bS">nil</code></div><div>
 <p>Completely destroys Janitor and all references to it. If the Janitor has tasks then those tasks are cleaned up</p>
 </div></div></article></div><details><summary>Show raw api</summary><pre style="max-width:100%;white-space:pre-wrap">{
     &quot;functions&quot;: [
@@ -194,13 +194,7 @@ janitor<span class="token punctuation">:</span><span class="token function">Clea
         {
             &quot;name&quot;: &quot;Cleanup&quot;,
             &quot;desc&quot;: &quot;Calls for the Janitor to cleanup up all the tasks it was given.&quot;,
-            &quot;params&quot;: [
-                {
-                    &quot;name&quot;: &quot;taskTable:&quot;,
-                    &quot;desc&quot;: &quot;&quot;,
-                    &quot;lua_type&quot;: &quot;table?&quot;
-                }
-            ],
+            &quot;params&quot;: [],
             &quot;returns&quot;: [
                 {
                     &quot;desc&quot;: &quot;&quot;,
@@ -210,7 +204,7 @@ janitor<span class="token punctuation">:</span><span class="token function">Clea
             &quot;function_type&quot;: &quot;method&quot;,
             &quot;since&quot;: &quot;0.11&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 165,
+                &quot;line&quot;: 164,
                 &quot;path&quot;: &quot;src/Features/Cleanup/Janitor.lua&quot;
             }
         },
@@ -227,7 +221,7 @@ janitor<span class="token punctuation">:</span><span class="token function">Clea
             &quot;function_type&quot;: &quot;method&quot;,
             &quot;since&quot;: &quot;0.11&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 207,
+                &quot;line&quot;: 206,
                 &quot;path&quot;: &quot;src/Features/Cleanup/Janitor.lua&quot;
             }
         }
@@ -244,7 +238,7 @@ janitor<span class="token punctuation">:</span><span class="token function">Clea
         &quot;path&quot;: &quot;src/Features/Cleanup/Janitor.lua&quot;
     }
 }</pre></details></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#types" class="table-of-contents__link toc-highlight">Types</a></li><li><a href="#properties" class="table-of-contents__link toc-highlight">Properties</a></li><li><a href="#functions" class="table-of-contents__link toc-highlight">Functions</a><ul><li><a href="#Cleanup" class="table-of-contents__link toc-highlight">:Cleanup</a></li><li><a href="#Destroy" class="table-of-contents__link toc-highlight">:Destroy</a></li><li><a href="#Give" class="table-of-contents__link toc-highlight">:Give</a></li><li><a href="#isJanitor" class="table-of-contents__link toc-highlight">.isJanitor</a></li><li><a href="#new" class="table-of-contents__link toc-highlight">.new</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2023 coderheck. Built with Moonwave and Docusaurus.</div></div></div></footer></div>
-<script src="/maplib-open-source/assets/js/runtime~main.85fcb010.js"></script>
-<script src="/maplib-open-source/assets/js/main.c74b6ee5.js"></script>
+<script src="/maplib-open-source/assets/js/runtime~main.8aded760.js"></script>
+<script src="/maplib-open-source/assets/js/main.759cc460.js"></script>
 </body>
 </html>
