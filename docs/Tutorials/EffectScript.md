@@ -1,6 +1,6 @@
 # EffectScript
 
-EffectScript is a localscript inside of the Tria.OS Map Making Kit, it should be used as an alternative to the LocalMapScript if you want your code to be replicated to other spectators.
+EffectScript is a localscript inside of the TRIA.os Map Making Kit, it should be used as an alternative to the LocalMapScript if you want your code to be replicated to other spectators.
  
 In order for the EffectScript to communicate we use RemoteEvents which are fired from the MapScript to the EffectScript.
  
