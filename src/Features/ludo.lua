@@ -16,3 +16,5 @@ end
 function Ludo:Totk()
     print("I don’t even know what tower this is since I quit")
 end
+
+return ludo
